@@ -1,1 +1,3 @@
 # RepurNet
+
+**RepurNet_Disease_Signature_Analysis.R** describes the limma/voom pipeline that was used to obtain the severe COVID-19 disease signature that was used to identify repurposed drug candidates downstream, as described in the RepurNet manuscript. As demonstrated using publicly available data from the Gene Expression Omnibus, input data can be either from bulk RNA-sequencing or single-cell RNA-sequencing experiments. Respective examples in this script are from Overmyer et al. (Cell Syst 2021) and Liao et al. (Nat Med 2020). To obtain desired disease signatures and apply RepurNet to other diseases, users may define their own input data and relevant comparisons.
